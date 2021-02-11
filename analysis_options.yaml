@@ -1,0 +1,8 @@
+# Removed implicit casts and dynamic feature
+# to force typed variables and methods/functions
+
+include: package:pedantic/analysis_options.yaml
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
